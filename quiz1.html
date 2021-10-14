@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">    
+    <link rel="stylesheet" href="design/html5reset.css" type="text/css">
+    <link rel="stylesheet" href="design/design.css" type="text/css">
+</head>
+
+<body>
+    <img class="title" src="design/image/title.svg">
+    <div class="quiz">
+            <div class="title_box">
+                <img class="thumbnail2" src="design/image/thumbnail.png" >
+                <div class="title_about">
+                    <p class="quiztitle">
+                        No.1 数字で見る早稲田祭
+                    </p>
+                    <hr class="hr3" width="100%" color="#8c82af">
+                    <p class="q_about">
+                        概要あああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+                    </p>
+                </div>
+
+            </div>
+            <section class="quiz_box">
+                <div class="aaa">
+                    <hr class="hr_q" color="#e89e9e" width="3%">
+                    <h2 class="q_number1">Q.</h2><h2 class="q_number2" id="q_number"></h2>
+                    <hr class="hr_q" color="#e89e9e" width="20%">
+                </div>
+                <p id="question"></p>
+                <ul id="choices">
+                </ul>
+                <p id="explanation" class="none"></p>
+                <div id="next_btn" class="disabled">次の問題へ</div>
+
+                <section id="result" class="hidden">
+                    <div class="aaa">
+                          <hr class="hr_r" color="#f4e25d" width="3%">
+                          <h2 class="letter_result">スコア</h2>
+                          <hr class="hr_r" color="#f4e25d" width="20%">
+                    </div>
+
+                    <div id="result_box">
+                      <p id="score2">あなたの得点は…<span id="score"></span>/8</p>
+                      <div id="rank_saikun">
+                           <p id="rank"></p>
+                           <img id="saikun" src="">
+                      </div>
+                      <p id="commentary"></p>
+                    </div>
+                    
+
+                    <div id="result_btn_box">
+                      <a id="share"　class="twitter-share-button" href="https://twitter.com/share?ref_src=twsrc%5Etfw"　data-show-count="false" data-text="私は'score'点でした！" data-url="" data-lang="ja">結果をTwitterでシェア</a>
+                      <a id="retry" href="quiz1.html">もう一度挑戦</a>
+                      <a id="back" href="index.html">クイズ一覧へ</a>
+                    </div>
+                </section>
+
+            </section>
+    </div>
+
+    <script src="quiz1.js"></script>
+        
+	</body>
+</html>
